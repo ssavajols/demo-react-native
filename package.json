@@ -1,0 +1,22 @@
+{
+  "name": "demo-react-native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssavajols/demo-react-native.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssavajols/demo-react-native/issues"
+  },
+  "homepage": "https://github.com/ssavajols/demo-react-native#readme",
+  "dependencies": {
+    "create-react-native-app": "^1.0.0"
+  }
+}
