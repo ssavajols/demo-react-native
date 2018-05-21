@@ -28,6 +28,7 @@
         "no-unused-vars": "warn",
         "sort-imports": "off",
         "react/prop-types": false,
-        "react/prefer-stateless-function": false
+        "react/prefer-stateless-function": false,
+        "no-invalid-this": "off"
     }
 }

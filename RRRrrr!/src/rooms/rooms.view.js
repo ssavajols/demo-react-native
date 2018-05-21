@@ -5,7 +5,7 @@ export class RoomsView extends React.Component {
 
   static navigationOptions = { title: 'Rooms' }
 
-  handleClick () {
+  handleClick = () => {
   	this.props.navigation.navigate('Reservations', { roomId: 1 })
   }
 
