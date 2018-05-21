@@ -1,11 +1,11 @@
 export class RoomsService {
 
-  fetchRooms() {
-    return []
-  }
+	fetchRooms () {
+		return []
+	}
 
-  fetchRoom(roomId) {
-    return null
-  }
+	fetchRoom (roomId) {
+		return null
+	}
 
 }

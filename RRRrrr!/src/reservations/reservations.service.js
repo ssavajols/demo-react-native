@@ -1,15 +1,15 @@
 export class ReservationsService {
 
-  fetchReservations(roomId) {
-    return []
-  }
+	fetchReservations (roomId) {
+		return []
+	}
 
-  fetchReservation(reservationId) {
-    return null
-  }
+	fetchReservation (reservationId) {
+		return null
+	}
 
-  saveReservation(reservation) {
-
-  }
+	saveReservation (reservation) {
+		return null
+	}
 
 }

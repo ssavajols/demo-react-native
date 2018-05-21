@@ -1,4 +1,12 @@
 {
+    "extends": [
+        "recommended/esnext",
+        "recommended/esnext/style-guide",
+        "recommended/node",
+        "recommended/node/style-guide",
+        "recommended/react-native",
+        "recommended/react-native/style-guide"
+    ],
     "env": {
         "browser": true,
         "commonjs": true,
@@ -13,12 +21,13 @@
         "sourceType": "module"
     },
     "rules": {
-        "no-const-assign": "warn",
-        "no-this-before-super": "warn",
-        "no-undef": "warn",
-        "no-unreachable": "warn",
+        "import/prefer-default-export": false,
+        "class-methods-use-this": 0,
+        "react/jsx-indent": false,
+        "no-mixed-spaces-and-tabs": "off",
         "no-unused-vars": "warn",
-        "constructor-super": "warn",
-        "valid-typeof": "warn"
+        "sort-imports": "off",
+        "react/prop-types": false,
+        "react/prefer-stateless-function": false
     }
 }

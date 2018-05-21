@@ -1,7 +1,7 @@
 export class Reservation {
 
-  id = -1 
-  
+  id = -1
+
   label = ''
 
   description = ''
@@ -11,5 +11,5 @@ export class Reservation {
   dateStart = new Date()
 
   dateEnd = new Date()
-  
+
 }

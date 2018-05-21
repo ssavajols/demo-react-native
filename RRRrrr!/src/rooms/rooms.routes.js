@@ -1,5 +1,7 @@
+import { RoomsView } from './rooms.view'
+
 export class RoomsRoutes {
-  getRoutes() {
-    
-  }
+	getRoutes () {
+		return { Rooms: { screen: RoomsView } }
+	}
 }
